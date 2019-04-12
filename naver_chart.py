@@ -1,10 +1,12 @@
 #-*- coding: utf-8 -*-
-import sys
+#import sys
 import requests
 import song
+from importlib import reload
 
-reload(sys)
-sys.setdefaultencoding('utf-8')
+
+#reload(sys)
+#sys.setdefaultencoding('utf-8')
 
 from bs4 import BeautifulSoup
 from datetime import datetime  
